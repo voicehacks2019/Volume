@@ -1,0 +1,27 @@
+result-view {
+  match: Content (this)
+  
+  render {
+    layout{
+      section{
+        content{
+          image{
+            url("[#{value(this.image.url)}]")
+            aspect-ratio(1:1)
+            object-fit (Cover)
+          }
+          single-line{
+            text{
+              value("Bio:")
+              style(Title_XS)
+            }
+          }
+          paragraph{
+            style(Detail_L)
+            value("[#{value(this.bio)}]")
+          }
+        }
+      }
+    }
+  }
+}

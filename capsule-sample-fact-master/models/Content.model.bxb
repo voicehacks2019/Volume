@@ -1,0 +1,18 @@
+structure (Content) {
+  description (Output)
+  property (text) {
+    type (core.Text)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (bio) {
+    type (core.Text)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (image) {
+    type (image.Image)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+}

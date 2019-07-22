@@ -1,0 +1,10 @@
+train (t-l2sqhzl03betostaq641jpv7n) {
+  utterance ([g:GetContent] Tell me a fact)
+  plan (Y2BiEE+tSMwtyEnVS87PK0nNK9FzhtAMUugS7qklMDlGIGSAYiAJAA==)
+  last-modified (1552931034978)
+}
+train (t-ltqrt0ovjtr2v9z8o8cifiwl1) {
+  utterance ("[g:GetContent] (Helen Keller)[v:SearchTerm]")
+  plan (Y2BmkCvISaxML8ovzUvRy8wrLsgsSizJzM/Tc87PK0nNK2FQxCHvnlpCSElwamJRckZIalEuAxMDIxAzAElGBhCA8gE=)
+  last-modified (1563815398835)
+}

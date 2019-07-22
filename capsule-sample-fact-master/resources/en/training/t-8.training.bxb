@@ -1,0 +1,5 @@
+train (t-8swsk8pwwd3kwgm9f9p0g2kvi) {
+  utterance ("[g:GetContent] Tell me a quote by (Einstein)[v:SearchTerm]")
+  plan (Y2BmkCvISaxML8ovzUvRy8wrLsgsSizJzM/Tc87PK0nNK2FQxCHvnlpCSElwamJRckZIalEuAxMDIxAzAElGBhCA8gE=)
+  last-modified (1563815210279)
+}
