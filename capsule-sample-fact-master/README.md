@@ -6,7 +6,7 @@
 
 ## Overview
 
-Do you have some interesting facts about a hobby or passion to share? Do you have a set of LOL jokes to share? The facts sample capsule is the perfect place to share that content by building a Bixby capsule.
+Do you have some interesting inspirational qoutes, facts about a hobby or passion to share? Do you have a set of LOL jokes to share? The facts sample capsule is the perfect place to share that content by building a Bixby capsule.
 
 Lots of the basic building blocks of a Bixby capsule are highlighted; This is a great capsule to start learning how to develop for Bixby.
 
@@ -54,6 +54,7 @@ Tell me a dad joke (Bixby says a random dad joke (fact) using a remote API call)
 * Add funny quotes 
 * Add movie quotes
 * Add random facts
+* Add jokes
 
 ---
 
