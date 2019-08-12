@@ -1,7 +1,7 @@
 <p align="Center">
   <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
   <br/>
-  <h1 align="Center">Bixby Facts Sample Capsule</h1>
+  <h1 align="Center">Bixby Inspirational Quotes Capsule</h1>
 </p>
 
 ## Overview
@@ -23,18 +23,18 @@ You can also retrieve data from an API. Included is an example of a simple API c
 
 
 ## How to try
-Ask about facts. Try these:
+Ask for quotes. Try these:
 
 ```
-Tell me a fact (Bixby says a random fact)
+Tell me a quote (Bixby says a random quote (and fact about the famous person who said it))
 
-Tell me a fact about dogs (Bixby says a fact about dogs)
+Tell me a quote by Steve Jobs (Bixby says a quote by Steve Jobs (and fact about him))
 ```
-Or ask about jokes. Try these:
+Or ask about inspirational qoutes. Try these:
 ```
-Tell me a joke (Bixby says a random joke (fact)
+Tell me an inspirational qoute (Bixby says a random a qoute (and fact about the famous person who said it)
 
-Tell me a cat joke (Bixby says a random joke (fact) about cats)
+Tell me a inspirational qoute by Helen Keller (Bixby says a random qoute by Helen Keller (and fact about her))
 ```
 Or ask about dad jokes (uses an API call). Try this:
 ```
@@ -42,13 +42,18 @@ Tell me a dad joke (Bixby says a random dad joke (fact) using a remote API call)
 ```
 
 ## How to customize
-* Put your own content (facts and associated tags and images) into `code/content.js` - You may also use the spreadsheet located in `contentUtility/CreateContent.xslx` to create content
-* Use an API for your facts/jokes. You need to modify `code/lib/getRemoteContent.js` and `code/content.js`
+* Put your own content (qoutes and associated tags and images) into `code/content.js` - You may also use the spreadsheet located in `contentUtility/CreateContent.xslx` to create content
+* Use an API for your quotes. You need to modify `code/lib/getRemoteContent.js` and `code/content.js`
 * If you want to use images in your content you can either use a web URL or you can save your image under `assets/images` and refer to them with a relative path, e.g. `images/cow.png` (you might have to wait a little until the IDE uploads images to the cloud)
 * Change the capsule id to reflect your organization and your content. The capsule id is defined in the `capsule.bxb` file
 * You can customize the NoResult dialog (`resources/base/dialog/Content_NoResult.dialog.bxb`)
 * Add more training / change the training
 * Have fun!
+
+## ToDo:
+* Add funny quotes 
+* Add movie quotes
+* Add random facts
 
 ---
 
