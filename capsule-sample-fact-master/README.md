@@ -6,7 +6,7 @@
 
 ## Overview
 
-Do you have some interesting inspirational qoutes, facts about a hobby or passion to share? Do you have a set of LOL jokes to share? The facts sample capsule is the perfect place to share that content by building a Bixby capsule.
+Do you have some interesting inspirational quotes, facts about a hobby or passion to share? Do you have a set of LOL jokes to share? The facts sample capsule is the perfect place to share that content by building a Bixby capsule.
 
 Lots of the basic building blocks of a Bixby capsule are highlighted; This is a great capsule to start learning how to develop for Bixby.
 
@@ -30,11 +30,11 @@ Tell me a quote (Bixby says a random quote (and fact about the famous person who
 
 Tell me a quote by Steve Jobs (Bixby says a quote by Steve Jobs (and fact about him))
 ```
-Or ask about inspirational qoutes. Try these:
+Or ask about inspirational quotes. Try these:
 ```
-Tell me an inspirational qoute (Bixby says a random a qoute (and fact about the famous person who said it)
+Tell me an inspirational quote (Bixby says a random a quote (and fact about the famous person who said it)
 
-Tell me a inspirational qoute by Helen Keller (Bixby says a random qoute by Helen Keller (and fact about her))
+Tell me a inspirational quote by Helen Keller (Bixby says a random quote by Helen Keller (and fact about her))
 ```
 Or ask about dad jokes (uses an API call). Try this:
 ```
@@ -42,7 +42,7 @@ Tell me a dad joke (Bixby says a random dad joke (fact) using a remote API call)
 ```
 
 ## How to customize
-* Put your own content (qoutes and associated tags and images) into `code/content.js` - You may also use the spreadsheet located in `contentUtility/CreateContent.xslx` to create content
+* Put your own content (quotes and associated tags and images) into `code/content.js` - You may also use the spreadsheet located in `contentUtility/CreateContent.xslx` to create content
 * Use an API for your quotes. You need to modify `code/lib/getRemoteContent.js` and `code/content.js`
 * If you want to use images in your content you can either use a web URL or you can save your image under `assets/images` and refer to them with a relative path, e.g. `images/cow.png` (you might have to wait a little until the IDE uploads images to the cloud)
 * Change the capsule id to reflect your organization and your content. The capsule id is defined in the `capsule.bxb` file
